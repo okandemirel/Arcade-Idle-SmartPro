@@ -549,5 +549,99 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6532528865428052944, guid: 174ffe65a3de90f4885fa781bdabe7db, type: 3}
+      propertyPath: physicsController
+      value: 
+      objectReference: {fileID: 2585048506133202233}
+    - target: {fileID: 6532528865428052944, guid: 174ffe65a3de90f4885fa781bdabe7db, type: 3}
+      propertyPath: movementController
+      value: 
+      objectReference: {fileID: 2585048506133202232}
+    - target: {fileID: 6532528865428052944, guid: 174ffe65a3de90f4885fa781bdabe7db, type: 3}
+      propertyPath: animationController
+      value: 
+      objectReference: {fileID: 2585048506133202234}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 174ffe65a3de90f4885fa781bdabe7db, type: 3}
+--- !u!1 &2585048506133202225 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2585048506418158671, guid: 174ffe65a3de90f4885fa781bdabe7db, type: 3}
+  m_PrefabInstance: {fileID: 2585048506133202224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2585048506133202226 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6532528865428052944, guid: 174ffe65a3de90f4885fa781bdabe7db, type: 3}
+  m_PrefabInstance: {fileID: 2585048506133202224}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2585048506133202225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 144bfd9cf00b1144a96ced89f22dcbc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &2585048506133202227 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 2585048507168291377, guid: 174ffe65a3de90f4885fa781bdabe7db, type: 3}
+  m_PrefabInstance: {fileID: 2585048506133202224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2585048506133202228 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 2585048507168291376, guid: 174ffe65a3de90f4885fa781bdabe7db, type: 3}
+  m_PrefabInstance: {fileID: 2585048506133202224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2585048506133202229 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2585048507168291790, guid: 174ffe65a3de90f4885fa781bdabe7db, type: 3}
+  m_PrefabInstance: {fileID: 2585048506133202224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2585048506133202230 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4596907166104003878, guid: 174ffe65a3de90f4885fa781bdabe7db, type: 3}
+  m_PrefabInstance: {fileID: 2585048506133202224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2585048506133202231 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4596907166104003877, guid: 174ffe65a3de90f4885fa781bdabe7db, type: 3}
+  m_PrefabInstance: {fileID: 2585048506133202224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2585048506133202232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2585048506133202225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 442c9d90368796b45b3c9708db4dee52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2585048506133202233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2585048506133202229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3b32d1e7edbb434d90d7b2c180e65e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2585048506133202226}
+  collider: {fileID: 2585048506133202228}
+  rigidbody: {fileID: 2585048506133202227}
+--- !u!114 &2585048506133202234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2585048506133202231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf4ca32d9313f6448015af1a6fbb51e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2585048506133202226}
+  animator: {fileID: 2585048506133202230}
